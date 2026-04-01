@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Search</title>
+</head>
+<body>
+    <h2>Secure Search</h2>
+    <form method="GET" action="/search-secure">
+        <input type="text" name="query" placeholder="Search...">
+        <input type="submit" value="Search">
+    </form>
+    {% if query %}
+        <p>Search results for: {{ query }}</p>
+    {% endif %}
+</body>
+</html>
