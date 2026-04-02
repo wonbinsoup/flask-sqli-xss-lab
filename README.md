@@ -22,7 +22,7 @@ This is exactly how the 2023 MOVEit breach worked. A SQL injection vulnerability
 
 ## About the App
 
-Built with Python, Flask, and SQLite. This was my first web application. I deliberately kept it minimal so I could focus entirely on understanding how vulnerabilities exist at the code level rather than using existing vulnerable apps like DVWA.
+Built with Python, Flask, and SQLite. I deliberately kept it minimal so I could focus entirely on understanding how vulnerabilities exist at the code level rather than using existing vulnerable apps like DVWA.
 
 The app has four routes:
 
@@ -114,4 +114,4 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 ## Author
 
-Daniel Won — CS student at Northeastern University, focusing on Application Security.
+Daniel W Kim — CS student @ Northeastern University, focusing on Application Security.
