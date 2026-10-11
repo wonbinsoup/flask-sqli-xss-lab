@@ -45,7 +45,7 @@ SELECT * FROM users WHERE username='' OR '1'='1'--' AND password=''
 
 The `--` comments out the password check. Since `'1'='1'` is always true, login succeeds without valid credentials.
 
-<img width="1728" height="1117" alt="Screenshot 2026-04-01 at 11 25 09 AM" src="https://github.com/user-attachments/assets/8deed6f1-cb17-4ffd-a68b-9e4dddbf9a1c" />
+<img width="1728" height="1117" alt="Screenshot 2026-04-01 at 11 25 09 AM" src=https://github.com/user-attachments/assets/f939bcbe-27a3-4864-adc7-dc93b2f16c67 />
 
 Intercepted and manipulated using Burp Suite Repeater to confirm the exploit at the HTTP request level:
 
